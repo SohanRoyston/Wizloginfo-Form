@@ -1,4 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    border-color: transparent;
+}
+
+body {
+    padding-bottom: 50px;
+    background-image: url(/340434.png);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    color: #fff;
+    text-shadow:  2px 5px 5px rgb(98, 98, 220);
+}
 
 form {
-    text-align: center;
+    padding-left: 200px;
+}
+
+label {
+    color: #fff;
+}
+
+#fname:hover {
+    transition: ease;
+    box-shadow: 2px 5px 12px rgb(98, 98, 220);
+}
+
+#fname {
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#lname:hover {
+    transition: ease-in;
+    box-shadow: 2px 5px 12px rgb(98, 98, 220);
+}
+
+#lname {
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#email:hover {
+    transition: ease-in;
+    box-shadow: 2px 5px 12px rgb(98, 98, 220);
+}
+
+#email {
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 250px;
+}
+
+#pass:hover {
+    transition: ease-in;
+    box-shadow: 2px 5px 12px rgb(98, 98, 220);
+}
+
+#pass {
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 250px;
+}
+
+#ph:hover {
+    transition: ease-in;
+    box-shadow: 2px 5px 5px rgb(98, 98, 220);
+}
+
+#ph {
+    border-radius: 8px;
+}
+
+#phone:hover {
+    transition: ease-in;
+    box-shadow: 2px 5px 12px rgb(98, 98, 220);
+}
+
+#phone {
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 95px;
+}
+
+#Address:hover {
+    transition: ease-in;
+    box-shadow: 5px 10px 15px rgb(98, 98, 220);
+}
+
+#Address {
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#states:hover {
+    transition: ease-in;
+    box-shadow: 2px 5px 5px rgb(98, 98, 220);
+}
+
+#states {
+    border-radius: 8px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    transform: translateY(-2px);
+    transition-duration: 0.2s;
+}
+
+#submit {
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(98, 98, 220);
+    border-color: transparent;
+    margin-bottom: 50px;
+}
+
+#reset:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    transform: translateY(-2px);
+    transition-duration: 0.2s;
+}
+
+#reset {
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(98, 98, 220);
+    border-color: transparent; 
+    margin-bottom: 50px;
 }
